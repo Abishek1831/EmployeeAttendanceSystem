@@ -1,0 +1,40 @@
+# --- Environment / secrets ---
+.env
+.env.*
+*.local.php
+config/config.local.php
+
+# --- IDE / editor files ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# --- OS files ---
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Logs ---
+*.log
+error_log
+logs/
+
+# --- Temporary / cache files ---
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# --- Local database dumps/backups (do not ignore the tracked schema docs) ---
+*.sql.bak
+database/*.sql.local
+
+# --- Dependency directories (in case Composer/npm tooling is added later) ---
+vendor/
+node_modules/
+
+# --- PHP session files (if stored locally, not usually in project dir) ---
+sess_*
