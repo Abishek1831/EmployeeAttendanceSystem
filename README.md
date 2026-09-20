@@ -209,7 +209,4 @@ base for anything beyond local learning/demo purposes.
 
 **Abishek D**
 
----
 
-*This project was built as part of a DBMS (Database Management Systems)
-course/portfolio project.*
